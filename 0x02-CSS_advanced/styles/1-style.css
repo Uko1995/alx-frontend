@@ -1,4 +1,6 @@
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 70px; /* For fixed headers */
+    overflow-y: scroll;
     -webkit-overflow-scrolling: touch; /* iOS-like smooth scrolling */
 }
