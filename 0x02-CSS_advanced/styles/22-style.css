@@ -79,12 +79,6 @@ a:active {
     color: var(--color-light-grey);
 }
 
-[data-section-theme=“dark”] {
-    --text-color: var(--color-white);
-    --section-title-color: var(--color-white);
-    background-color: var(--color-black);
-}
-
 .navbar-menu {
     float: right;
 }
@@ -198,3 +192,9 @@ ul.row {
     clear: both;
 }
 
+/* dark theme */
+[data-section-theme=“dark”] {
+    --text-color: var(--color-white);
+    --section-title-color: var(--color-white);
+    background-color: var(--color-black);
+}
