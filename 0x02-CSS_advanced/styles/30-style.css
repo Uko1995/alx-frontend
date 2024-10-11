@@ -224,7 +224,7 @@ a:active {
     vertical-align: bottom;
 }
 
-.card-work ,card-inner {
+.card-work .card-inner {
     position: absolute;
     top: -0.1rem;
     left: -0.1rem;
