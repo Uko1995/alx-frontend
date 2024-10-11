@@ -217,7 +217,7 @@ a:active {
     overflow: hidden;
 }
 
-.card-work .card-image {
+.card-work .card-image img {
     height: 30rem;
     width: 100%;
     object-fit: cover;
@@ -242,12 +242,6 @@ a:active {
     opacity: 0;
     height: 100%;
     position: relative;
-}
-
-.card-work .card-title a {
-    display: block;
-    text-decoration: none;
-    padding-top: 45%;
 }
 
 .card-title a, .card-work a {
